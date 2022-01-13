@@ -3021,7 +3021,7 @@ case 'emoji':
 }
                break
 case 'nuke':
-                tessgc = await getBuffer(`https://i.ibb.co/m4Qx3JG/20210319-204838.jpg`)
+                tessgc = await getBuffer(`https://i.ibb.co/9Td4MVt/photo.jpg`)
                    vfo.updateProfilePicture (from, tessgc)
                    await sleep(1000)
                 vfo.groupUpdateDescription(from, `᳄‣𝐓𝐇𝐢𝐒 𝐆𝐑𝚯𝐔𝐏 𝐇𝛥𝐒 𝐁𝚵𝚵𝐍 𝐂𝐋𝚯𝐒𝚵𝐃 𝐁𝐘 𝐕𝐢𝐑𝐔𝐒 𝐅𝐔𝐂𝐊𝚵𝐑𝐒 𝚯𝐅𝐂💓-2021©  [𝐕𝐅͢𝚯 𝐂͢𝚯𝐍𝐒𝚯̲̲̲𝐋𝐄📴] 𝐊𝐢𝐋𝐢-𝐕𝐅𝚯 𝐏𝛥𝐒𝐒𝐢𝐍𝐆 𝐓𝐇𝐑𝚯𝐔𝐆𝐇💖҈⃝ݳ `)             
